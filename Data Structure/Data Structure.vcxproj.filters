@@ -16,6 +16,9 @@
     <Filter Include="List">
       <UniqueIdentifier>{0369471c-e409-48fd-a941-e5199331f4ce}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{5674d0a9-95fd-4064-97c1-83222891f906}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AYJ.hh">
@@ -26,6 +29,9 @@
     </ClInclude>
     <ClInclude Include="SingleLinkedList.hh">
       <Filter>List</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.hh">
+      <Filter>Vector</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
