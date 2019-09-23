@@ -19,6 +19,12 @@
     <Filter Include="Vector">
       <UniqueIdentifier>{5674d0a9-95fd-4064-97c1-83222891f906}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{d31a66bc-2c8e-47a2-b819-da8a5e8d2a5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Queue">
+      <UniqueIdentifier>{c46e85ef-a8f0-4f3e-b282-5c17f7425d06}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AYJ.hh">
@@ -32,6 +38,12 @@
     </ClInclude>
     <ClInclude Include="Vector.hh">
       <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Stack.hh">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="Queue.hh">
+      <Filter>Queue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

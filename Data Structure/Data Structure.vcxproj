@@ -125,7 +125,9 @@
   <ItemGroup>
     <ClInclude Include="AYJ.hh" />
     <ClInclude Include="DoubleLinkedList.hh" />
+    <ClInclude Include="Queue.hh" />
     <ClInclude Include="SingleLinkedList.hh" />
+    <ClInclude Include="Stack.hh" />
     <ClInclude Include="Vector.hh" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
