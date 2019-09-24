@@ -258,12 +258,28 @@ public:
     return !size_;
   }
 
-
   void clear() {
     for (size_type i = 0; i < size_; i++) {
       container_[i] = T();
     }
     size_ = 0;
+  }
+
+  void resize(size_type size) {
+    if (size > capacity_) {
+      reallocate(size);
+    }
+    size_ = size;
+  }
+
+  void resize(size_type size, const T& val) {
+    if (size > capacity_) {
+      reallocate(size);
+    }
+    for (int i = 0; i < size; ++i) {
+      container_[i] = val;
+    }
+    size_ = size;
   }
 
   void reserve(size_type capacity) {

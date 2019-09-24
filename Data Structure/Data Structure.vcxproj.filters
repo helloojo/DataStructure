@@ -25,6 +25,9 @@
     <Filter Include="Queue">
       <UniqueIdentifier>{c46e85ef-a8f0-4f3e-b282-5c17f7425d06}</UniqueIdentifier>
     </Filter>
+    <Filter Include="PriorityQueue">
+      <UniqueIdentifier>{779eafaa-e914-4833-b730-e9d5f2478e28}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AYJ.hh">
@@ -44,6 +47,9 @@
     </ClInclude>
     <ClInclude Include="Queue.hh">
       <Filter>Queue</Filter>
+    </ClInclude>
+    <ClInclude Include="PriorityQueue.hh">
+      <Filter>PriorityQueue</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
