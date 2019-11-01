@@ -136,6 +136,7 @@ public:
     DoubleLinkedListNode<T>* new_node = new DoubleLinkedListNode<T>();
     new_node->data = data;
     new_node->next = head;
+    head->prev = new_node;
     head = new_node;
     ++size_;
   }
