@@ -124,7 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="AYJ.hh" />
+    <ClInclude Include="BinarySearchTree.hh" />
     <ClInclude Include="DoubleLinkedList.hh" />
+    <ClInclude Include="LRU_Cache.hh" />
     <ClInclude Include="PriorityQueue.hh" />
     <ClInclude Include="Queue.hh" />
     <ClInclude Include="SingleLinkedList.hh" />

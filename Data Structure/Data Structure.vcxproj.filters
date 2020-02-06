@@ -28,6 +28,9 @@
     <Filter Include="PriorityQueue">
       <UniqueIdentifier>{779eafaa-e914-4833-b730-e9d5f2478e28}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tree">
+      <UniqueIdentifier>{54c80d2c-3129-4c5a-b09e-0a1a445d0a50}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AYJ.hh">
@@ -50,6 +53,12 @@
     </ClInclude>
     <ClInclude Include="PriorityQueue.hh">
       <Filter>PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="BinarySearchTree.hh">
+      <Filter>Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="LRU_Cache.hh">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
